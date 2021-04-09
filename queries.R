@@ -22,3 +22,5 @@ porcentaje <- filter(CountryLanguage, Language == "Spanish" )
 
 ggplot(porcentaje, aes(x=Percentage, y=CountryCode, col=IsOfficial)) + geom_point()
 
+#Comentaro
+
